@@ -1,32 +1,27 @@
-
-
----
-
-````markdown
 # Simple E-Commerce System (Python)
 
 This is a basic e-commerce simulation written in Python. It models real-life shopping features like products (perishable/non-perishable), customer carts, shipping fees, and checkout handling.
 
 ## Features
 
-- Add perishable and non-perishable products
-- Add items to a customer's cart
-- Handle expired products and out-of-stock errors
-- Calculate shipping fees based on weight
-- Print a detailed checkout receipt
-- Includes test cases to cover success and failure scenarios
+* Add perishable and non-perishable products
+* Add items to a customer's cart
+* Handle expired products and out-of-stock errors
+* Calculate shipping fees based on weight
+* Print a detailed checkout receipt
+* Includes test cases to cover success and failure scenarios
 
 ## Code Overview
 
-- `Product` is the abstract base class for all products
-- `PerishableProduct` and `NonPerishableProduct` extend `Product`
-- `Shippable` is an interface for shipping-related methods
-- `ShippablePerishableProduct` and `ShippableNonPerishableProduct` implement the interface
-- `ShoppingCart` holds items and calculates subtotal
-- `Customer` holds balance and cart
-- `ShippingService` calculates shipping fees and prints shipment details
-- `ECommerceSystem` connects everything and manages checkout logic
-- `test_all_cases()` runs multiple test cases
+* `Product` is the abstract base class for all products
+* `PerishableProduct` and `NonPerishableProduct` extend `Product`
+* `Shippable` is an interface for shipping-related methods
+* `ShippablePerishableProduct` and `ShippableNonPerishableProduct` implement the interface
+* `ShoppingCart` holds items and calculates subtotal
+* `Customer` holds balance and cart
+* `ShippingService` calculates shipping fees and prints shipment details
+* `ECommerceSystem` connects everything and manages checkout logic
+* `test_all_cases()` runs multiple test cases
 
 ## How to Run
 
@@ -36,8 +31,8 @@ This is a basic e-commerce simulation written in Python. It models real-life sho
 4. Run the file:
 
 ```bash
-python products.py
-````
+python main.py
+```
 
 ## Sample Output
 
@@ -72,10 +67,3 @@ Total package weight: 1.10 kg
 ## Author
 
 Ammar Mohamed
-
-```
-
----
-
-
-```
