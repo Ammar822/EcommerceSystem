@@ -53,6 +53,8 @@ Cheese (0.20 kg)
 Biscuits (0.70 kg)
 Total package weight: 1.10 kg
 ```
+<img width="597" alt="Screenshot 2025-07-09 at 5 03 37 PM" src="https://github.com/user-attachments/assets/69199b9f-fc36-4f2b-8710-febd577147cb" />
+
 
 ## Test Cases Included
 
